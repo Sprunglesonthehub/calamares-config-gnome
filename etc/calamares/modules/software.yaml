@@ -69,3 +69,11 @@
     - virtualbox
     - virtualbox-host-dkms
     - virtualbox-guest-utils
+- name: "Acreetion Loaded Software"
+  description: "GNOME Config files"
+  critical: false
+  hidden: true
+  selected: true
+  expanded: false
+  packages:
+
