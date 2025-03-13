@@ -99,4 +99,8 @@
     - bluez
     - bluez-utils
     - blueman
-
+    - cups
+    - cups-pdf
+    - ghostscript
+    - gsfonts
+    - hplip
