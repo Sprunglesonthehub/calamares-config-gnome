@@ -102,21 +102,21 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 /* Package/Module Selection Styles */
 QTreeView {
     font-size: 14pt;
-    color: #FFFFFF;         /* Text color */
+    color: #000000;         /* Text color */
     padding: 5px;
     margin: 2px;
 }
 
 QListView {
     font-size: 14pt;
-    color: #FFFFFF;         /* Text color */
+    color: #000000;         /* Text color */
     padding: 5px;
     margin: 2px;
 }
 
 QComboBox {
     font-size: 14pt;
-    color: #FFFFFF;         /* Text color */
+    color: #000000;         /* Text color */
     padding: 5px;
     margin: 2px;
 }
@@ -193,45 +193,44 @@ QLabel {
 
 QCheckBox {
     spacing: 5px;
-    color: #ffffff;
+    color: #000000;
 }
 
 QCheckBox::indicator {
     width: 16px;
     height: 16px;
-    border: 2px solid #ffffff;  /* White border */
+    border: 2px solid #000000;  /* black border */
     border-radius: 3px;
-    background-color: #000000;  /* White background */
+    background-color: #000000;  /* black background */
 }
 
 QCheckBox::indicator:unchecked {
-    background-color: #ffffff;  /* Pure white */
-}
+    background-color: #000000;  /* Pure black */
 
 QCheckBox::indicator:unchecked:hover {
-    background-color: #ffffff;  /* Slightly darker on hover */
-    border-color: #ffffff;
+    background-color: #808080;  /* Slightly darker on hover */
+    border-color: #000000;
 }
 
 QCheckBox::indicator:checked {
-    background-color: #ffffff;
-    border-color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
     image: url(/path/to/check-black.svg);  /* Changed to black checkmark for visibility */
 }
 
 QCheckBox::indicator:checked:hover {
-    background-color: #ffffff;
-    border-color: #ffffff;
+    background-color: #808080;
+    border-color: #808080;
 }
 
 QCheckBox::indicator:disabled {
-    border-color: #ffffff;
-    background-color: #ffffff;
+    border-color: #000000;
+    background-color: #000000;
 }
 
 /* Optional: Style for focused checkboxes */
 QCheckBox::indicator:focus {
-    border-color: #ffffff;
+    border-color: #000000;
 }
 
 /* Save this as check-black.svg instead of check-white.svg */
