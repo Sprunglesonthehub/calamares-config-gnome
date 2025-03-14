@@ -45,7 +45,7 @@ Use gammaray
 
 #sidebarMenuApp {
 	padding: 3px;
-	background-color: #000000;
+	background-color: #808080;
 }
 
 QWidget {
@@ -62,13 +62,13 @@ QListWidget::item:alternate {
 }
 
 #view-button-back:hover {
-	color: #000000;
+	color: #808080;
 }
 #view-button-next:hover {
-	color: #000000;
+	color: #808080;
 }
 #view-button-cancel:hover {
-	color: #000000;
+	color: #808080;
 }
 
 #debugButton {
@@ -98,7 +98,7 @@ QListWidget::item:alternate {
 /* ########## TOOLTIP ########## */
 
 QToolTip {
-	background-color: #000000;
+	background-color: #808080;
   font : 16px;
 	color: black;
 	padding: 3px;
@@ -149,37 +149,37 @@ QListView {
 }
 
 QListView::item:alternate {
-	color: #000000;
+	color: #808080;
 	color: white;
 }
 
 QListView::item:!alternate:selected:active {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
 QListView::item:selected:active {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
 QListView::item:selected:!active {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
 QListView::item:hover {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
 QListView#listLayout::item:!alternate:selected:active {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
 QListView#listVariant::item:!alternate:selected:active {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
@@ -315,7 +315,7 @@ QComboBox {
 }
 
 QComboBox::item:selected {
-	background: #000000;
+	background: #808080;
 	color: white;
 }
 
@@ -345,7 +345,7 @@ QTreeView::item {
 }
 
 QTreeView::item:selected {
-	background: #000000;
+	background: #808080;
 	font: bold;
 }
 
@@ -386,7 +386,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-	background-color: #000000;
+	background-color: #808080;
 }
 
 #debugButton {
