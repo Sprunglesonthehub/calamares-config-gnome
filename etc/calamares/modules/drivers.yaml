@@ -58,6 +58,7 @@
     - nvidia-settings
     - nvidia-utils
     - lib32-nvidia-utils
+    - nvidia-390xx-dkms
 - name: "Nvidia for Linux-Zen Kernel"
   description: "Installs nVidia for Linux-Zen"
   critical: false
