@@ -29,9 +29,8 @@ instances:
 
 sequence:
 - show:
-#  - windowexpander
   - welcome
-  - netinstall@drivers
+#  - netinstall@drivers
   - netinstall@software
   - locale
   - keyboard
@@ -51,14 +50,11 @@ sequence:
   - localecfg
   - luksbootkeyfile
   - luksopenswaphookcfg
-  - shellprocess@first
-  - netinstall@software
-  - netinstall@drivers
+#  - shellprocess@first
   - initcpiocfg
   - initcpio
-#  - shellprocess@first
-#  - netinstall@software
-#  - netinstall@drivers
+  - shellprocess@first
+  - netinstall@software
   - packages
   - users
   - displaymanager
